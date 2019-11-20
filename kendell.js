@@ -46,7 +46,7 @@ function changeHairthree(elem){
 }
 
 function playOne(elem){
-	var audio= new Audio('Talking/firstRecord.mp4');
+	var audio= new Audio('Talking/firstRecord.m4a');
 	audio.play();
 	i.src="Images/Kendell1.gif";
 	d.classList.add("opaque");  

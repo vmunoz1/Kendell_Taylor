@@ -13,7 +13,7 @@ var j = document.getElementById("title")
 
 function titleChange(elem){
 	h.src="Images/Kendell1.jpg";
-	i.src="Images/kendell2.jpg";
+	i.src="Images/Kendell2.jpg";
 	a.classList.remove("opaque");
 	b.classList.remove("opaque");
 	c.classList.remove("opaque");

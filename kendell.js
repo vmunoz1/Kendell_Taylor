@@ -9,7 +9,15 @@ var g = document.getElementById("play4")
 var h = document.getElementById("ken1")
 var i = document.getElementById("ken2")
 var j = document.getElementById("title")
+var x = document.getElementById("audio")
 
+function audioPlay(){
+	x.play();
+}
+
+function audioPause(){
+	x.pause();
+}
 
 function titleChange(elem){
 	h.src="Images/Kendell1.jpg";
